@@ -1,0 +1,104 @@
+-- Merging decision tree log ---
+manifest
+ADDED from AndroidManifest.xml:2:1
+	xmlns:android
+		ADDED from AndroidManifest.xml:2:11
+	package
+		ADDED from AndroidManifest.xml:3:7
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:versionName
+		ADDED from AndroidManifest.xml:4:31
+	android:versionCode
+		ADDED from AndroidManifest.xml:4:7
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:installLocation
+		ADDED from AndroidManifest.xml:5:7
+uses-sdk
+ADDED from AndroidManifest.xml:7:5
+	android:targetSdkVersion
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:minSdkVersion
+		ADDED from AndroidManifest.xml:7:15
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from AndroidManifest.xml:9:5
+	android:name
+		ADDED from AndroidManifest.xml:9:22
+uses-permission#android.permission.WAKE_LOCK
+ADDED from AndroidManifest.xml:11:5
+	android:name
+		ADDED from AndroidManifest.xml:11:22
+application
+ADDED from AndroidManifest.xml:13:5
+	android:label
+		ADDED from AndroidManifest.xml:13:48
+	android:icon
+		ADDED from AndroidManifest.xml:13:18
+activity#name.bagi.levente.pedometer.Pedometer
+ADDED from AndroidManifest.xml:14:9
+	android:label
+		ADDED from AndroidManifest.xml:15:19
+	android:configChanges
+		ADDED from AndroidManifest.xml:16:19
+	android:name
+		ADDED from AndroidManifest.xml:14:19
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:17:13
+action#android.intent.action.MAIN
+ADDED from AndroidManifest.xml:18:17
+	android:name
+		ADDED from AndroidManifest.xml:18:25
+category#android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:19:17
+	android:name
+		ADDED from AndroidManifest.xml:19:27
+activity#name.bagi.levente.pedometer.Settings
+ADDED from AndroidManifest.xml:22:9
+	android:label
+		ADDED from AndroidManifest.xml:23:17
+	android:name
+		ADDED from AndroidManifest.xml:22:19
+intent-filter#android.intent.action.MAIN+android.intent.category.DEFAULT
+ADDED from AndroidManifest.xml:24:13
+category#android.intent.category.DEFAULT
+ADDED from AndroidManifest.xml:26:17
+	android:name
+		ADDED from AndroidManifest.xml:26:27
+service#name.bagi.levente.pedometer.StepService
+ADDED from AndroidManifest.xml:30:9
+	android:name
+		ADDED from AndroidManifest.xml:30:18
+activity#name.bagi.levente.pedometer.Category
+ADDED from AndroidManifest.xml:32:9
+	android:label
+		ADDED from AndroidManifest.xml:33:13
+	android:name
+		ADDED from AndroidManifest.xml:34:13
+activity#name.bagi.levente.pedometer.FastMusicList
+ADDED from AndroidManifest.xml:35:9
+	android:label
+		ADDED from AndroidManifest.xml:36:13
+	android:name
+		ADDED from AndroidManifest.xml:37:13
+activity#name.bagi.levente.pedometer.MiddleMusicList
+ADDED from AndroidManifest.xml:38:9
+	android:label
+		ADDED from AndroidManifest.xml:39:13
+	android:name
+		ADDED from AndroidManifest.xml:40:13
+activity#name.bagi.levente.pedometer.LowMusicList
+ADDED from AndroidManifest.xml:42:9
+	android:label
+		ADDED from AndroidManifest.xml:43:13
+	android:name
+		ADDED from AndroidManifest.xml:44:13
+activity#name.bagi.levente.pedometer.ShowTotalMusic
+ADDED from AndroidManifest.xml:46:9
+	android:label
+		ADDED from AndroidManifest.xml:47:13
+	android:name
+		ADDED from AndroidManifest.xml:48:13

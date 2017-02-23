@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="fast_button"
+            android:id="@+id/F_button"
+            android:layout_weight="0.11"
+            android:layout_alignTop="@+id/M_button"
+            android:layout_alignParentLeft="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Please choose one of category"
+            android:id="@+id/textView"
+            android:layout_above="@+id/F_button"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="73dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Middle_button"
+            android:id="@+id/M_button"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Low_button"
+            android:id="@+id/L_button"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true" />
+    </RelativeLayout>
+</LinearLayout><!-- From: file:/Users/bob/Desktop/My-StepCounter/android-pedometer/app/src/main/res/layout/category.xml -->

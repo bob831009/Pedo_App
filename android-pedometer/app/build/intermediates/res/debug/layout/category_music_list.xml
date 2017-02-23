@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="443dp"
+        android:id="@+id/music_list"
+        android:clickable="true"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="248dp"
+        android:layout_height="wrap_content"
+        android:text="Add more song"
+        android:id="@+id/Add_song_button"
+        android:layout_gravity="center_horizontal" />
+</LinearLayout><!-- From: file:/Users/bob/Desktop/My-StepCounter/android-pedometer/app/src/main/res/layout/category_music_list.xml -->
